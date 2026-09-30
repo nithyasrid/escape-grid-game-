@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "name": "The First Lock",
+    "objective": "Find the blue key, open Door A, activate the switch, then reach the exit.",
+    "steps": "Collect key \u2192 open door \u2192 switch \u2192 exit.",
+    "sabotage": "Moving wall blocks the original return path after the switch.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#...K.........#",
+      "#..#..C..K#.#.#",
+      "#..####...#...#",
+      "#..#.R....#...#",
+      "#..#...####...#",
+      "#..#.....#....#",
+      "#..##....#.#..#",
+      "#..###...#S...#",
+      "#..########.#.#",
+      "#...........#.#",
+      "#..####.....#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Collect key.",
+      "hint2": "Next clue: Open door.",
+      "hint3": "Watch for this sabotage: Moving wall blocks the original return path after the switch."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Power Failure",
+    "objective": "Reach the generator, power the floor, collect the red key and escape.",
+    "steps": "Generator \u2192 powered floor \u2192 key \u2192 exit.",
+    "sabotage": "The lights shut off when the key is collected.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#.......#",
+      "#.....#...K...#",
+      "#.....#.....#.#",
+      "#.....#.##.##.#",
+      "#..#......###.#",
+      "#..#...##.###.#",
+      "#..#######....#",
+      "#..#.#.##.....#",
+      "#..#.#.....#..#",
+      "#..##...####..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Generator.",
+      "hint2": "Next clue: Powered floor.",
+      "hint3": "Watch for this sabotage: The lights shut off when the key is collected."
+    }
+  },
+  {
+    "id": 3,
+    "name": "The Hunter",
+    "objective": "Activate two switches, steal the access card and escape unseen.",
+    "steps": "Switch A \u2192 Switch B \u2192 card \u2192 exit.",
+    "sabotage": "Activating Switch B releases a hunting enemy.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.......E.....#",
+      "#..##...S.#...#",
+      "#..E......#...#",
+      "#.........###.#",
+      "#.......#...#.#",
+      "#.......####..#",
+      "#.......#.....#",
+      "#.......##.#..#",
+      "#...#.####.#..#",
+      "#...#..###.#..#",
+      "#...#...#####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Switch a.",
+      "hint2": "Next clue: Switch b.",
+      "hint3": "Watch for this sabotage: Activating Switch B releases a hunting enemy."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Collapsing Grid",
+    "objective": "Cross the floor, collect the key and return before the route disappears.",
+    "steps": "Cross \u2192 key \u2192 return \u2192 door \u2192 exit.",
+    "sabotage": "Tiles behind the player collapse continuously.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.R.....#.###.#",
+      "#....###......#",
+      "#..........#..#",
+      "#..###.#......#",
+      "#...#....##...#",
+      "#...#...#.#...#",
+      "#...#..#.####.#",
+      "#......#.##...#",
+      "#.K.####.##.#.#",
+      "#........##.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Cross.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: Tiles behind the player collapse continuously."
+    }
+  },
+  {
+    "id": 5,
+    "name": "False Exit",
+    "objective": "Study three symbols, enter their order and choose the safe door.",
+    "steps": "Observe \u2192 code \u2192 choose door \u2192 exit.",
+    "sabotage": "Two doors become traps after the code is entered.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#....T........#",
+      "#..#.#.#......#",
+      "#..#.R.####...#",
+      "#......##...#.#",
+      "#...#########.#",
+      "#.....####.#..#",
+      "#......#...#..#",
+      "#..TT.####.#..#",
+      "#..#.#........#",
+      "#..#.#.#.#....#",
+      "#..###.#.#T...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Code.",
+      "hint3": "Watch for this sabotage: Two doors become traps after the code is entered."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Heavy Lifting",
+    "objective": "Push a block onto the pressure plate and use the opened route.",
+    "steps": "Move block \u2192 plate \u2192 gate \u2192 exit.",
+    "sabotage": "The block slowly slides off the plate unless braced.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.C...###.#",
+      "#......#####..#",
+      "#......###....#",
+      "#..###........#",
+      "#...........#.#",
+      "#.....######..#",
+      "#.....#.......#",
+      "#....##....##.#",
+      "#..###.##..#..#",
+      "#....#.######.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Move block.",
+      "hint2": "Next clue: Plate.",
+      "hint3": "Watch for this sabotage: The block slowly slides off the plate unless braced."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Two Weights",
+    "objective": "Place two blocks on separate plates without blocking yourself.",
+    "steps": "Block A \u2192 plate A \u2192 Block B \u2192 plate B \u2192 exit.",
+    "sabotage": "A reset wall closes one side when the first plate activates.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..###........#",
+      "#.C###.#......#",
+      "#..###..####..#",
+      "#....###.#....#",
+      "#..##....#....#",
+      "#....#####....#",
+      "#..##..###....#",
+      "#..##.........#",
+      "#..######.###.#",
+      "#......####...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Block a.",
+      "hint2": "Next clue: Plate a.",
+      "hint3": "Watch for this sabotage: A reset wall closes one side when the first plate activates."
+    }
+  },
+  {
+    "id": 8,
+    "name": "The Moving Wall",
+    "objective": "Navigate around a wall that changes position every few seconds.",
+    "steps": "Scout \u2192 cross \u2192 key \u2192 return \u2192 exit.",
+    "sabotage": "The wall shifts after every few seconds.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#..###..#",
+      "#..#..#...#...#",
+      "#..#....###...#",
+      "#..#.....#....#",
+      "#...K#...#..#.#",
+      "#..##....#.##.#",
+      "#.....##.###..#",
+      "#..#.....#..#.#",
+      "#....#...####.#",
+      "#...###..#....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Scout.",
+      "hint2": "Next clue: Cross.",
+      "hint3": "Watch for this sabotage: The wall shifts after every few seconds."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Beat the Clock",
+    "objective": "Reach three checkpoints before the countdown reaches zero.",
+    "steps": "Checkpoint 1 \u2192 2 \u2192 3 \u2192 exit.",
+    "sabotage": "The timer accelerates after checkpoint 2.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##...####..#",
+      "#...#......#..#",
+      "#...#......#..#",
+      "#....#...####.#",
+      "#..#..#.##..#.#",
+      "#.....#.##..#.#",
+      "#..##..####...#",
+      "#..##...#..##.#",
+      "#..###...##...#",
+      "#..###...#....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Checkpoint 1.",
+      "hint2": "Next clue: 2.",
+      "hint3": "Watch for this sabotage: The timer accelerates after checkpoint 2."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Last Safe Door",
+    "objective": "Collect the key, identify the safe corridor and leave.",
+    "steps": "Key \u2192 observe \u2192 safe corridor \u2192 exit.",
+    "sabotage": "A decoy corridor locks behind you.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....####...K.#",
+      "#....#.##.....#",
+      "#....#####.R..#",
+      "#....####...#.#",
+      "#.....#.#####.#",
+      "#...###....#..#",
+      "#...###..####.#",
+      "#...###....##.#",
+      "#.....#....##.#",
+      "#...####......#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Key.",
+      "hint2": "Next clue: Observe.",
+      "hint3": "Watch for this sabotage: A decoy corridor locks behind you."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Laser Room",
+    "objective": "Redirect a laser with one mirror to open the exit.",
+    "steps": "Mirror \u2192 laser target \u2192 door \u2192 exit.",
+    "sabotage": "The laser sweeps across the room after activation.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##..#....#.#",
+      "#......#....#.#",
+      "#......#..###.#",
+      "#....R..####..#",
+      "#.....####.##.#",
+      "#........####.#",
+      "#...##....M.#.#",
+      "#.....####.#..#",
+      "#..####.......#",
+      "#..####...L##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Mirror.",
+      "hint2": "Next clue: Laser target.",
+      "hint3": "Watch for this sabotage: The laser sweeps across the room after activation."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Twin Mirrors",
+    "objective": "Use two mirrors to hit two targets.",
+    "steps": "Mirror A \u2192 target A \u2192 mirror B \u2192 target B \u2192 exit.",
+    "sabotage": "The second laser activates when the first target is hit.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#.....###..#",
+      "#.L........#..#",
+      "#........#....#",
+      "#..#####.#..#.#",
+      "#..#######.M#.#",
+      "#..##.##....#.#",
+      "#..#.###....#.#",
+      "#....#.######.#",
+      "#....##..#....#",
+      "#....#........#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Mirror a.",
+      "hint2": "Next clue: Target a.",
+      "hint3": "Watch for this sabotage: The second laser activates when the first target is hit."
+    }
+  },
+  {
+    "id": 13,
+    "name": "Moving Beam",
+    "objective": "Cross a laser lane whose timing changes each cycle.",
+    "steps": "Observe timing \u2192 cross \u2192 key \u2192 exit.",
+    "sabotage": "The laser speed increases after the key is collected.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.......#####.#",
+      "#..#..........#",
+      "#.K###.K......#",
+      "#..#..#....#..#",
+      "#..#..#....#..#",
+      "#..#..#....#..#",
+      "#.....####....#",
+      "#..#..#..#.##.#",
+      "#......##.#...#",
+      "#...L####.#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe timing.",
+      "hint2": "Next clue: Cross.",
+      "hint3": "Watch for this sabotage: The laser speed increases after the key is collected."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Laser Lock",
+    "objective": "Use a mirror to power a locked door, then take the long route.",
+    "steps": "Mirror \u2192 target \u2192 door \u2192 long route \u2192 exit.",
+    "sabotage": "The powered door closes again after a short delay.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...##....R...#",
+      "#.........L.#.#",
+      "#.....###..##.#",
+      "#..##.....###.#",
+      "#...M#.....##.#",
+      "#...####...#..#",
+      "#....#######..#",
+      "#..#.#....##..#",
+      "#...##..###...#",
+      "#.....##..#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Mirror.",
+      "hint2": "Next clue: Target.",
+      "hint3": "Watch for this sabotage: The powered door closes again after a short delay."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Red Maze",
+    "objective": "Reach the central target without crossing red laser cells.",
+    "steps": "Outer route \u2192 mirror \u2192 center \u2192 exit.",
+    "sabotage": "A laser rotates 90 degrees whenever you step on a marked tile.",
+    "difficulty": "Easy",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#L##.###..#",
+      "#...#..###....#",
+      "#...#..#......#",
+      "#...##.##.....#",
+      "#...##.##M....#",
+      "#...##.##.....#",
+      "#.......###...#",
+      "#.....##..###.#",
+      "#.....#.####..#",
+      "#..####.#.#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Outer route.",
+      "hint2": "Next clue: Mirror.",
+      "hint3": "Watch for this sabotage: A laser rotates 90 degrees whenever you step on a marked tile."
+    }
+  },
+  {
+    "id": 16,
+    "name": "Portal Gate",
+    "objective": "Find the correct portal pair and use it to bypass the locked section.",
+    "steps": "Key \u2192 portal \u2192 switch \u2192 exit.",
+    "sabotage": "One portal becomes a decoy after first use.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...##.##..##.#",
+      "#..##.####..#.#",
+      "#..K#..####.#.#",
+      "#...#..#......#",
+      "#...##.#......#",
+      "#...#######.#.#",
+      "#...#..##.#...#",
+      "#...#...#.#.#.#",
+      "#...#.SO......#",
+      "#...#.........#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Key.",
+      "hint2": "Next clue: Portal.",
+      "hint3": "Watch for this sabotage: One portal becomes a decoy after first use."
+    }
+  },
+  {
+    "id": 17,
+    "name": "Portal Storm",
+    "objective": "Use three portals in the correct order.",
+    "steps": "Portal A \u2192 B \u2192 C \u2192 key \u2192 exit.",
+    "sabotage": "The portals rotate destinations after each activation.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....###.#.#..#",
+      "#.....#..##...#",
+      "#..K..#..##.#.#",
+      "#....##...###.#",
+      "#...K.#...#...#",
+      "#..########...#",
+      "#..#..#.....#.#",
+      "#..#..#....##.#",
+      "#..##.#.#...O.#",
+      "#....####..##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Portal a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: The portals rotate destinations after each activation."
+    }
+  },
+  {
+    "id": 18,
+    "name": "False Portal",
+    "objective": "Ignore the tempting portal and find the hidden pair.",
+    "steps": "Scout \u2192 hidden portal \u2192 switch \u2192 exit.",
+    "sabotage": "The obvious portal sends you back to the start.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......#......#",
+      "#...######.##.#",
+      "#......#O..#..#",
+      "#..........#..#",
+      "#...#......#S.#",
+      "#...#......#..#",
+      "#...#.....###.#",
+      "#...#.......#.#",
+      "#...#..####.#.#",
+      "#..##..##.#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Scout.",
+      "hint2": "Next clue: Hidden portal.",
+      "hint3": "Watch for this sabotage: The obvious portal sends you back to the start."
+    }
+  },
+  {
+    "id": 19,
+    "name": "One Way Out",
+    "objective": "Use one-way portals to create a route that cannot be reversed.",
+    "steps": "Portal 1 \u2192 key \u2192 Portal 2 \u2192 gate \u2192 exit.",
+    "sabotage": "Returning through a used portal is disabled.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......#####..#",
+      "#..#...#...##.#",
+      "#........O.##.#",
+      "#..##.....#...#",
+      "#..#......#.#.#",
+      "#.........#...#",
+      "#....###K.#K#.#",
+      "#....#.#......#",
+      "#....#.##..#..#",
+      "#........#....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Portal 1.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: Returning through a used portal is disabled."
+    }
+  },
+  {
+    "id": 20,
+    "name": "Portal Network",
+    "objective": "Navigate a network of five portals and remember destinations.",
+    "steps": "Map portals \u2192 route \u2192 key \u2192 switch \u2192 exit.",
+    "sabotage": "A random portal closes after the switch is activated.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.......O.....#",
+      "#....#......#.#",
+      "#..###.S...#..#",
+      "#...##........#",
+      "#...####...##.#",
+      "#..###....#...#",
+      "#...#.....#.#.#",
+      "#......####...#",
+      "#..#.K..###.#.#",
+      "#.......####..#",
+      "#...#..#.#....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Map portals.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: A random portal closes after the switch is activated."
+    }
+  },
+  {
+    "id": 21,
+    "name": "Patrol",
+    "objective": "Cross a patrol corridor and collect the key.",
+    "steps": "Watch patrol \u2192 cross \u2192 key \u2192 exit.",
+    "sabotage": "The patrol reverses direction at the key.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....##.####.#",
+      "#.....#...###.#",
+      "#...#.#.#..##.#",
+      "#..##########.#",
+      "#......##..##.#",
+      "#..#######....#",
+      "#.K......#....#",
+      "#........#....#",
+      "#..K....##.##.#",
+      "#.......##.#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Watch patrol.",
+      "hint2": "Next clue: Cross.",
+      "hint3": "Watch for this sabotage: The patrol reverses direction at the key."
+    }
+  },
+  {
+    "id": 22,
+    "name": "Twin Patrol",
+    "objective": "Pass two enemies with different patrol rhythms.",
+    "steps": "Enemy A \u2192 safe pocket \u2192 Enemy B \u2192 key \u2192 exit.",
+    "sabotage": "The enemies synchronize after the key is taken.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....##E####..#",
+      "#.......#.....#",
+      "#..##########.#",
+      "#.......#.###.#",
+      "#..###.##.....#",
+      "#.....###.K...#",
+      "#..E.###.####.#",
+      "#....###.#..#.#",
+      "#...##.#.#....#",
+      "#...##.#.#E...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Enemy a.",
+      "hint2": "Next clue: Safe pocket.",
+      "hint3": "Watch for this sabotage: The enemies synchronize after the key is taken."
+    }
+  },
+  {
+    "id": 23,
+    "name": "Vision",
+    "objective": "Stay outside enemy vision cones while activating the switch.",
+    "steps": "Hide \u2192 switch \u2192 key \u2192 exit.",
+    "sabotage": "The vision cones widen after the switch.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.......E.....#",
+      "#.....#.S.....#",
+      "#..###..#.....#",
+      "#...K...#...#.#",
+      "#......##..E#.#",
+      "#..######..##.#",
+      "#..#####.####.#",
+      "#...#..#.#.#..#",
+      "#..E#K..#####.#",
+      "#......#.##.#.#",
+      "#..#...#.#.E#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Hide.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: The vision cones widen after the switch."
+    }
+  },
+  {
+    "id": 24,
+    "name": "Shadow Cover",
+    "objective": "Move only while cover blocks the enemy's view.",
+    "steps": "Cover 1 \u2192 cover 2 \u2192 switch \u2192 exit.",
+    "sabotage": "A moving light removes one safe cover.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#....##....#",
+      "#...###C##....#",
+      "#..#....####..#",
+      "#..#.#.S.#.#..#",
+      "#..#....#.##..#",
+      "#.....###.##..#",
+      "#.......#####.#",
+      "#.....EE.####.#",
+      "#....#.....##.#",
+      "#....#......#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Cover 1.",
+      "hint2": "Next clue: Cover 2.",
+      "hint3": "Watch for this sabotage: A moving light removes one safe cover."
+    }
+  },
+  {
+    "id": 25,
+    "name": "Silent Key",
+    "objective": "Reach a key without crossing the alarm tiles.",
+    "steps": "Safe route \u2192 key \u2192 silent return \u2192 exit.",
+    "sabotage": "Picking up the key activates an alarm timer.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.......#.#",
+      "#.K####..#.#..#",
+      "#....K.#.####.#",
+      "#..#........#.#",
+      "#..###....#...#",
+      "#....#........#",
+      "#...##........#",
+      "#..#####....#.#",
+      "#......#....#.#",
+      "#...#A.######.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Safe route.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: Picking up the key activates an alarm timer."
+    }
+  },
+  {
+    "id": 26,
+    "name": "Moving Guard",
+    "objective": "Wait for a moving guard to expose the only passage.",
+    "steps": "Observe \u2192 cross \u2192 key \u2192 return \u2192 exit.",
+    "sabotage": "The guard gains speed after the key.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..####K.#....#",
+      "#..#..#.##....#",
+      "#..#..#..#.##.#",
+      "#..##..#......#",
+      "#...###.#.....#",
+      "#..#.####..##.#",
+      "#..#....##.##.#",
+      "#...###.####..#",
+      "#....#...#.#..#",
+      "#....#.....##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Cross.",
+      "hint3": "Watch for this sabotage: The guard gains speed after the key."
+    }
+  },
+  {
+    "id": 27,
+    "name": "Guarded Switch",
+    "objective": "Activate two switches while avoiding a guard.",
+    "steps": "Switch A \u2192 hide \u2192 Switch B \u2192 exit.",
+    "sabotage": "The guard begins following the player's last position.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...S#.####.#.#",
+      "#..######..##.#",
+      "#..#.#.###....#",
+      "#....#.###....#",
+      "#...##.#.####.#",
+      "#....#.#.#..#.#",
+      "#.....##.#..#.#",
+      "#..#####...##.#",
+      "#..##.#..#.#..#",
+      "#..#....##.##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Switch a.",
+      "hint2": "Next clue: Hide.",
+      "hint3": "Watch for this sabotage: The guard begins following the player's last position."
+    }
+  },
+  {
+    "id": 28,
+    "name": "Red Alert",
+    "objective": "Disable three alarm nodes before entering the exit.",
+    "steps": "Alarm 1 \u2192 2 \u2192 3 \u2192 exit.",
+    "sabotage": "Each disabled alarm activates a new hazard.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.A...........#",
+      "#.......#.###.#",
+      "#..#....#..#..#",
+      "#..#..##...#..#",
+      "#..#..#..#..#.#",
+      "#..##.#.###.#.#",
+      "#..#..#..####.#",
+      "#..#####....#.#",
+      "#...#.##..###.#",
+      "#...#..#..###.#",
+      "#...#..#..###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Alarm 1.",
+      "hint2": "Next clue: 2.",
+      "hint3": "Watch for this sabotage: Each disabled alarm activates a new hazard."
+    }
+  },
+  {
+    "id": 29,
+    "name": "Guard Maze",
+    "objective": "Reach the center, steal the card and escape through another route.",
+    "steps": "Outer loop \u2192 center \u2192 card \u2192 alternate route \u2192 exit.",
+    "sabotage": "The center guard starts chasing after the card.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#####.#.#",
+      "#..##.#...#.#.#",
+      "#.....#######.#",
+      "#.......##....#",
+      "#......###....#",
+      "#..###........#",
+      "#...##....##..#",
+      "#...##...##...#",
+      "#....#....#...#",
+      "#.........#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Outer loop.",
+      "hint2": "Next clue: Center.",
+      "hint3": "Watch for this sabotage: The center guard starts chasing after the card."
+    }
+  },
+  {
+    "id": 30,
+    "name": "Silent Escape",
+    "objective": "Complete the entire room without triggering an alarm.",
+    "steps": "Observe \u2192 stealth route \u2192 key \u2192 exit.",
+    "sabotage": "One false step permanently locks the nearest door.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#......R......#",
+      "#..#...#......#",
+      "#..#.#####....#",
+      "#..###..####..#",
+      "#...#.#..####.#",
+      "#..##.........#",
+      "#..#...#.#.#..#",
+      "#..#K..####.A.#",
+      "#..#..####....#",
+      "#......#.####.#",
+      "#.....####..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Stealth route.",
+      "hint3": "Watch for this sabotage: One false step permanently locks the nearest door."
+    }
+  },
+  {
+    "id": 31,
+    "name": "Vanishing Path",
+    "objective": "Cross tiles that disappear behind you.",
+    "steps": "Cross \u2192 switch \u2192 key \u2192 exit.",
+    "sabotage": "Every visited tile becomes unsafe.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##.......#.#",
+      "#......##S..#.#",
+      "#...#..##.###.#",
+      "#...#.##.K###.#",
+      "#.....##......#",
+      "#..###.###.##.#",
+      "#....#.#......#",
+      "#.K..#.#..##..#",
+      "#..#...#.###..#",
+      "#..#.#.##.###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Cross.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: Every visited tile becomes unsafe."
+    }
+  },
+  {
+    "id": 32,
+    "name": "Falling Tiles",
+    "objective": "Use a safe sequence across a collapsing bridge.",
+    "steps": "Observe pattern \u2192 cross \u2192 key \u2192 exit.",
+    "sabotage": "The collapse pattern changes after the key.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....#....###.#",
+      "#..#.#..#K....#",
+      "#..#.####..##.#",
+      "#....#.##.....#",
+      "#....##.#.....#",
+      "#..####.#..#..#",
+      "#.......##.##.#",
+      "#.......##.##.#",
+      "#....#####.##.#",
+      "#....#......#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe pattern.",
+      "hint2": "Next clue: Cross.",
+      "hint3": "Watch for this sabotage: The collapse pattern changes after the key."
+    }
+  },
+  {
+    "id": 33,
+    "name": "Safe Sequence",
+    "objective": "Step on safe tiles in the shown order.",
+    "steps": "Memorize \u2192 sequence \u2192 switch \u2192 exit.",
+    "sabotage": "One wrong tile resets the sequence and moves the exit.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#...##....#",
+      "#.....#.##....#",
+      "#....##.#..#..#",
+      "#....##....#..#",
+      "#...S###..###.#",
+      "#....#..#####.#",
+      "#.......##....#",
+      "#..###.#.#....#",
+      "#..#######....#",
+      "#..#..##..#.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Memorize.",
+      "hint2": "Next clue: Sequence.",
+      "hint3": "Watch for this sabotage: One wrong tile resets the sequence and moves the exit."
+    }
+  },
+  {
+    "id": 34,
+    "name": "Floor Switch",
+    "objective": "Activate three floor plates without stepping on traps.",
+    "steps": "Plate 1 \u2192 plate 2 \u2192 plate 3 \u2192 exit.",
+    "sabotage": "Plate 2 rearranges nearby traps.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.............#",
+      "#...#####.....#",
+      "#.......T.###.#",
+      "#..#####..#.#.#",
+      "#..#...T#.#...#",
+      "#..#....####..#",
+      "#...#..#.##...#",
+      "#.....T.###...#",
+      "#..#.S..#.###.#",
+      "#..#....#..#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Plate 1.",
+      "hint2": "Next clue: Plate 2.",
+      "hint3": "Watch for this sabotage: Plate 2 rearranges nearby traps."
+    }
+  },
+  {
+    "id": 35,
+    "name": "Last Tile",
+    "objective": "Reach a key by stepping on a shrinking safe zone.",
+    "steps": "Safe zone \u2192 key \u2192 return \u2192 exit.",
+    "sabotage": "The safe zone shrinks every 5 seconds.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#....K........#",
+      "#......#####..#",
+      "#......#.###..#",
+      "#..#####.#.#..#",
+      "#....########.#",
+      "#..#####......#",
+      "#...####..###.#",
+      "#..#....##..#.#",
+      "#..#.....####.#",
+      "#..#K....###..#",
+      "#..#...####...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Safe zone.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: The safe zone shrinks every 5 seconds."
+    }
+  },
+  {
+    "id": 36,
+    "name": "Trap Corridor",
+    "objective": "Cross a corridor of alternating spikes and safe gaps.",
+    "steps": "Observe \u2192 time steps \u2192 key \u2192 exit.",
+    "sabotage": "The spike rhythm changes halfway through.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#..T..........#",
+      "#..###..##....#",
+      "#...##..##....#",
+      "#..##.####....#",
+      "#..#.#...#....#",
+      "#........####.#",
+      "#.....#..#.#..#",
+      "#....##.K.###.#",
+      "#..####T.####.#",
+      "#..####....##.#",
+      "#....#....##..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Time steps.",
+      "hint3": "Watch for this sabotage: The spike rhythm changes halfway through."
+    }
+  },
+  {
+    "id": 37,
+    "name": "Trap Shuffle",
+    "objective": "Find the only route where trap positions do not overlap.",
+    "steps": "Scout \u2192 route \u2192 switch \u2192 exit.",
+    "sabotage": "Trap positions shuffle when the switch activates.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.......T.....#",
+      "#...#.....###.#",
+      "#...#.#...###.#",
+      "#..##.#.#####.#",
+      "#..####.#S.##.#",
+      "#....####.T##.#",
+      "#......##.##..#",
+      "#.........#T..#",
+      "#....####.###.#",
+      "#....#.##.#.#.#",
+      "#......##.##..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Scout.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: Trap positions shuffle when the switch activates."
+    }
+  },
+  {
+    "id": 38,
+    "name": "Trap Hunt",
+    "objective": "Collect three keys while avoiding moving spike rows.",
+    "steps": "Key A \u2192 Key B \u2192 Key C \u2192 exit.",
+    "sabotage": "The spike rows move toward the player after each key.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......#.#.T#.#",
+      "#...#..#.#....#",
+      "#..###.#.#..#.#",
+      "#..##...#..#K.#",
+      "#..#.T####.#..#",
+      "#..#.......#..#",
+      "#..#....T..#..#",
+      "#..#.#.##..#..#",
+      "#....##.#.##T.#",
+      "#..#.########.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Key a.",
+      "hint2": "Next clue: Key b.",
+      "hint3": "Watch for this sabotage: The spike rows move toward the player after each key."
+    }
+  },
+  {
+    "id": 39,
+    "name": "Key Through Fire",
+    "objective": "Reach the key behind timed hazard gates.",
+    "steps": "Gate 1 \u2192 gate 2 \u2192 key \u2192 return \u2192 exit.",
+    "sabotage": "The return route has a shorter timer.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#...K...K.....#",
+      "#.....#.#.###.#",
+      "#...#.#.#..##.#",
+      "#..#####..#.#.#",
+      "#....##...#...#",
+      "#..##..######.#",
+      "#......#.####.#",
+      "#...#..#...##.#",
+      "#...####...##.#",
+      "#..##.##......#",
+      "#..##.#.#####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Gate 1.",
+      "hint2": "Next clue: Gate 2.",
+      "hint3": "Watch for this sabotage: The return route has a shorter timer."
+    }
+  },
+  {
+    "id": 40,
+    "name": "Trap Labyrinth",
+    "objective": "Solve a maze where dead ends contain reset traps.",
+    "steps": "Map \u2192 safe route \u2192 key \u2192 exit.",
+    "sabotage": "A reset trap moves the player to a new entrance.",
+    "difficulty": "Medium",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.....T....T..#",
+      "#...#....##.#.#",
+      "#..###.#####..#",
+      "#..#..######..#",
+      "#..####....#..#",
+      "#..##.#....##.#",
+      "#..##.....#.#.#",
+      "#..##..##.#T..#",
+      "#...#...#.#.#.#",
+      "#..###...K..#.#",
+      "#..#......#.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Map.",
+      "hint2": "Next clue: Safe route.",
+      "hint3": "Watch for this sabotage: A reset trap moves the player to a new entrance."
+    }
+  },
+  {
+    "id": 41,
+    "name": "Blackout",
+    "objective": "Reach the switch in darkness and restore the lights.",
+    "steps": "Dark path \u2192 switch \u2192 lights \u2192 key \u2192 exit.",
+    "sabotage": "The light radius shrinks before restoration.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...###.......#",
+      "#.............#",
+      "#..#...#.##.#.#",
+      "#..#...#.####.#",
+      "#..#####K##...#",
+      "#..K.##S......#",
+      "#...#####...#.#",
+      "#..#.####.###.#",
+      "#..#.##.#.###.#",
+      "#...#.####.D..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Dark path.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: The light radius shrinks before restoration."
+    }
+  },
+  {
+    "id": 42,
+    "name": "Small Window",
+    "objective": "Use a tiny vision radius to navigate to the key.",
+    "steps": "Scout \u2192 key \u2192 return \u2192 exit.",
+    "sabotage": "The vision radius changes every few seconds.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#.......#",
+      "#...#.#.....#.#",
+      "#..######...#.#",
+      "#..###.####.#.#",
+      "#...#..#.####.#",
+      "#..K####...##.#",
+      "#..####...#...#",
+      "#..........##.#",
+      "#...#########.#",
+      "#..##########.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Scout.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: The vision radius changes every few seconds."
+    }
+  },
+  {
+    "id": 43,
+    "name": "Flashlight",
+    "objective": "Carry a limited flashlight charge through the maze.",
+    "steps": "Charge \u2192 key \u2192 switch \u2192 exit.",
+    "sabotage": "Running out of charge reveals only adjacent tiles.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..K.....####.#",
+      "#..###...#....#",
+      "#...######....#",
+      "#.K###...#.##.#",
+      "#.....#######.#",
+      "#.......#####.#",
+      "#.....#.....#.#",
+      "#...#.#....##.#",
+      "#..##..#..###.#",
+      "#..#..S#..#.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Charge.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: Running out of charge reveals only adjacent tiles."
+    }
+  },
+  {
+    "id": 44,
+    "name": "Dark Traps",
+    "objective": "Cross a hidden trap field with limited visibility.",
+    "steps": "Observe flashes \u2192 route \u2192 key \u2192 exit.",
+    "sabotage": "The flash pattern changes after the key.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#..T.T........#",
+      "#..T##.#....D.#",
+      "#..###.#....#.#",
+      "#...##.####...#",
+      "#....###...##.#",
+      "#...#..#...##.#",
+      "#...#.#######.#",
+      "#...#.###.##..#",
+      "#..###...T.#..#",
+      "#..###...###..#",
+      "#......#K.#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe flashes.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: The flash pattern changes after the key."
+    }
+  },
+  {
+    "id": 45,
+    "name": "Night Watch",
+    "objective": "Escape a dark room while a patrol is only visible during flashes.",
+    "steps": "Wait flash \u2192 move \u2192 switch \u2192 exit.",
+    "sabotage": "The patrol changes route after every flash.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....#..#...#.#",
+      "#...##...S..#.#",
+      "#...##...#.##.#",
+      "#..###...#.##.#",
+      "#.......#####.#",
+      "#....#####.#..#",
+      "#....#...####.#",
+      "#..####.......#",
+      "#..#.#####....#",
+      "#..##D#####...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Wait flash.",
+      "hint2": "Next clue: Move.",
+      "hint3": "Watch for this sabotage: The patrol changes route after every flash."
+    }
+  },
+  {
+    "id": 46,
+    "name": "Remember",
+    "objective": "Memorize a sequence of safe tiles.",
+    "steps": "Watch sequence \u2192 reproduce \u2192 key \u2192 exit.",
+    "sabotage": "The sequence is replayed faster the second time.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.........#",
+      "#...#.###.###.#",
+      "#...####...##.#",
+      "#..##.#....#..#",
+      "#..##.....##..#",
+      "#..#########..#",
+      "#..#.##....#..#",
+      "#....###......#",
+      "#..####.#.K#..#",
+      "#..###..#..##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Watch sequence.",
+      "hint2": "Next clue: Reproduce.",
+      "hint3": "Watch for this sabotage: The sequence is replayed faster the second time."
+    }
+  },
+  {
+    "id": 47,
+    "name": "Color Memory",
+    "objective": "Remember four colors and step on matching tiles.",
+    "steps": "Observe \u2192 colors \u2192 switches \u2192 exit.",
+    "sabotage": "One color changes after the second input.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......#.#....#",
+      "#..###.#.#....#",
+      "#....#.#......#",
+      "#...####......#",
+      "#....#.....##.#",
+      "#.........##..#",
+      "#....###.S##..#",
+      "#..####...###.#",
+      "#.....####..#.#",
+      "#..#.###.#....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Colors.",
+      "hint3": "Watch for this sabotage: One color changes after the second input."
+    }
+  },
+  {
+    "id": 48,
+    "name": "Symbol Memory",
+    "objective": "Remember symbols shown briefly at the entrance.",
+    "steps": "Observe \u2192 symbols \u2192 doors \u2192 exit.",
+    "sabotage": "Wrong symbol opens a trap route.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#.......#..#",
+      "#....###.#.##.#",
+      "#...#..#.####.#",
+      "#..###.#.T###.#",
+      "#..#..#######.#",
+      "#.R#.##.#####.#",
+      "#.....##.##.#.#",
+      "#...###.....T.#",
+      "#...###.......#",
+      "#.............#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Symbols.",
+      "hint3": "Watch for this sabotage: Wrong symbol opens a trap route."
+    }
+  },
+  {
+    "id": 49,
+    "name": "Moving Memory",
+    "objective": "Memorize a route while the maze walls shift.",
+    "steps": "Observe \u2192 route \u2192 key \u2192 exit.",
+    "sabotage": "Two walls move when the first sequence is completed.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##.#######.#",
+      "#...#.......#.#",
+      "#.....#.K#.##.#",
+      "#..####.###...#",
+      "#..#..####.##.#",
+      "#..#.##..#.##.#",
+      "#..K##..#..##.#",
+      "#....#..#.###.#",
+      "#..#.#..#.....#",
+      "#..#.#.####...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: Two walls move when the first sequence is completed."
+    }
+  },
+  {
+    "id": 50,
+    "name": "Memory Maze",
+    "objective": "Remember two sequences in different rooms.",
+    "steps": "Sequence A \u2192 room B \u2192 Sequence B \u2192 exit.",
+    "sabotage": "Returning to room A changes its layout.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#..###.#...#",
+      "#..###.#..#...#",
+      "#..#...#.##...#",
+      "#..#....##.#..#",
+      "#..#.#.#####..#",
+      "#....#####..#.#",
+      "#....###......#",
+      "#......#..#...#",
+      "#..##.#####...#",
+      "#..#..#.###.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Sequence a.",
+      "hint2": "Next clue: Room b.",
+      "hint3": "Watch for this sabotage: Returning to room A changes its layout."
+    }
+  },
+  {
+    "id": 51,
+    "name": "Moving Platforms",
+    "objective": "Cross platforms that move horizontally.",
+    "steps": "Platform 1 \u2192 2 \u2192 3 \u2192 exit.",
+    "sabotage": "Platform speed increases after the key.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#..#....##.#",
+      "#..#..#.##.##.#",
+      "#..###...#..#.#",
+      "#....#...#..#.#",
+      "#...###..####.#",
+      "#..K#.........#",
+      "#..##....#.K..#",
+      "#..##.........#",
+      "#..##..####...#",
+      "#..F...#..#.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Platform 1.",
+      "hint2": "Next clue: 2.",
+      "hint3": "Watch for this sabotage: Platform speed increases after the key."
+    }
+  },
+  {
+    "id": 52,
+    "name": "Rotating Floor",
+    "objective": "Rotate floor sections to create a continuous route.",
+    "steps": "Rotate A \u2192 rotate B \u2192 key \u2192 exit.",
+    "sabotage": "The first rotation locks one section.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.........K...#",
+      "#...#...####..#",
+      "#...##.#......#",
+      "#..#..###.###.#",
+      "#...####....#.#",
+      "#..........#..#",
+      "#.....####.#..#",
+      "#..##.#######.#",
+      "#...#####..#..#",
+      "#......##..#..#",
+      "#..####..#..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Rotate a.",
+      "hint2": "Next clue: Rotate b.",
+      "hint3": "Watch for this sabotage: The first rotation locks one section."
+    }
+  },
+  {
+    "id": 53,
+    "name": "Conveyor",
+    "objective": "Fight conveyor directions while reaching the switch.",
+    "steps": "Against conveyor \u2192 switch \u2192 key \u2192 exit.",
+    "sabotage": "The conveyor reverses after the switch.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.K#.####...#.#",
+      "#....###...#..#",
+      "#..#####..###.#",
+      "#..#.#..##..#.#",
+      "#...#..##.#...#",
+      "#...#####.S##.#",
+      "#...#...#..#..#",
+      "#....##.#...#.#",
+      "#..######...#.#",
+      "#.K.###.#.....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Against conveyor.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: The conveyor reverses after the switch."
+    }
+  },
+  {
+    "id": 54,
+    "name": "Ice",
+    "objective": "Use walls to stop sliding on ice.",
+    "steps": "Slide \u2192 stop \u2192 key \u2192 stop \u2192 exit.",
+    "sabotage": "Collecting the key removes one stopping wall.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....#...#....#",
+      "#..########...#",
+      "#..##...##....#",
+      "#..##..#####K.#",
+      "#...#...#.....#",
+      "#...#.#..#....#",
+      "#.....#..##...#",
+      "#.....#######.#",
+      "#.....#######.#",
+      "#....##.#####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Slide.",
+      "hint2": "Next clue: Stop.",
+      "hint3": "Watch for this sabotage: Collecting the key removes one stopping wall."
+    }
+  },
+  {
+    "id": 55,
+    "name": "Slippery",
+    "objective": "Cross a large ice chamber with only three safe stopping points.",
+    "steps": "Stop 1 \u2192 stop 2 \u2192 key \u2192 stop 3 \u2192 exit.",
+    "sabotage": "A stopping point disappears after use.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..####..###..#",
+      "#..#.....##...#",
+      "#..##...#.#.#.#",
+      "#...#...#####.#",
+      "#...#####.#.#.#",
+      "#..######.###.#",
+      "#..####....##.#",
+      "#....K..#####.#",
+      "#..###..#.#...#",
+      "#...K...#.#.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Stop 1.",
+      "hint2": "Next clue: Stop 2.",
+      "hint3": "Watch for this sabotage: A stopping point disappears after use."
+    }
+  },
+  {
+    "id": 56,
+    "name": "Gravity Flip",
+    "objective": "Reach a switch that reverses gravity.",
+    "steps": "Floor route \u2192 switch \u2192 ceiling route \u2192 exit.",
+    "sabotage": "Gravity flips back when the key is collected.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#........S....#",
+      "#..........#..#",
+      "#..###..#K.##.#",
+      "#..####.####..#",
+      "#..####...###.#",
+      "#...##.#..#.#.#",
+      "#..###.####...#",
+      "#....#.#.#....#",
+      "#..#..####....#",
+      "#..#..##.####.#",
+      "#..#...##.....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Floor route.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: Gravity flips back when the key is collected."
+    }
+  },
+  {
+    "id": 57,
+    "name": "Reverse World",
+    "objective": "Navigate upside-down after collecting the first key.",
+    "steps": "Key \u2192 gravity flip \u2192 ceiling maze \u2192 exit.",
+    "sabotage": "The exit moves to the opposite side.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#..K..........#",
+      "#...####...##.#",
+      "#.........###.#",
+      "#..#..##.####.#",
+      "#..##...#.#.#.#",
+      "#..###........#",
+      "#..####.......#",
+      "#......####...#",
+      "#..K..####.#..#",
+      "#......######.#",
+      "#....#.#####..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Key.",
+      "hint2": "Next clue: Gravity flip.",
+      "hint3": "Watch for this sabotage: The exit moves to the opposite side."
+    }
+  },
+  {
+    "id": 58,
+    "name": "Gravity Beam",
+    "objective": "Use gravity to cross laser lanes from a different axis.",
+    "steps": "Flip \u2192 laser gap \u2192 key \u2192 flip \u2192 exit.",
+    "sabotage": "The laser changes direction after each flip.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.....L.......#",
+      "#..#..#.#.#.#.#",
+      "#..#..#..####.#",
+      "#......#.#....#",
+      "#...#..#####..#",
+      "#...######....#",
+      "#.......#.....#",
+      "#...#...#K....#",
+      "#.....######..#",
+      "#..###.######.#",
+      "#...######..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Flip.",
+      "hint2": "Next clue: Laser gap.",
+      "hint3": "Watch for this sabotage: The laser changes direction after each flip."
+    }
+  },
+  {
+    "id": 59,
+    "name": "Gravity Guard",
+    "objective": "Avoid a guard whose vision changes with gravity.",
+    "steps": "Flip \u2192 hide \u2192 switch \u2192 flip \u2192 exit.",
+    "sabotage": "The guard's patrol also flips.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...S.#....#..#",
+      "#....###..###.#",
+      "#..#####..###.#",
+      "#..#.###..##..#",
+      "#..###.#....#.#",
+      "#..#..####..#.#",
+      "#..#.......#..#",
+      "#........####.#",
+      "#.....#######.#",
+      "#...###.####..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Flip.",
+      "hint2": "Next clue: Hide.",
+      "hint3": "Watch for this sabotage: The guard's patrol also flips."
+    }
+  },
+  {
+    "id": 60,
+    "name": "Gravity Maze",
+    "objective": "Solve a multi-stage gravity maze.",
+    "steps": "Gravity A \u2192 B \u2192 C \u2192 key \u2192 exit.",
+    "sabotage": "Each gravity change rearranges two gates.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#K#######.#",
+      "#...#####..#..#",
+      "#...####.####.#",
+      "#...#########.#",
+      "#..#########..#",
+      "#...########..#",
+      "#....##.#.##..#",
+      "#.....#....#..#",
+      "#.....#.#..#..#",
+      "#....#.###.##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Gravity a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: Each gravity change rearranges two gates."
+    }
+  },
+  {
+    "id": 61,
+    "name": "Four Rooms",
+    "objective": "Solve four small rooms in a required order.",
+    "steps": "Room A \u2192 B \u2192 C \u2192 D \u2192 exit.",
+    "sabotage": "Entering the wrong room resets the current room.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..######.....#",
+      "#..##.###.....#",
+      "#..##..#......#",
+      "#..##.##......#",
+      "#..###.##.....#",
+      "#.....####....#",
+      "#......#.#.##.#",
+      "#..#..........#",
+      "#..##...##..#.#",
+      "#..##.........#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Room a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: Entering the wrong room resets the current room."
+    }
+  },
+  {
+    "id": 62,
+    "name": "Room Order",
+    "objective": "Find clues in separate rooms to determine the correct order.",
+    "steps": "Clue 1 \u2192 clue 2 \u2192 order \u2192 exit.",
+    "sabotage": "The clue room locks after leaving.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.............#",
+      "#...##..#####.#",
+      "#....###.#..#.#",
+      "#...#######...#",
+      "#...####.##...#",
+      "#...####.###..#",
+      "#..####....#..#",
+      "#...###..####.#",
+      "#...##..#####.#",
+      "#...##.##.....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Clue 1.",
+      "hint2": "Next clue: Clue 2.",
+      "hint3": "Watch for this sabotage: The clue room locks after leaving."
+    }
+  },
+  {
+    "id": 63,
+    "name": "Carry Over",
+    "objective": "Carry a battery from one room to another.",
+    "steps": "Battery \u2192 room 2 \u2192 power \u2192 room 3 \u2192 exit.",
+    "sabotage": "Dropping the battery resets the room connection.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..####...#.#.#",
+      "#...#..#..#.#.#",
+      "#...#.##..#.#.#",
+      "#..##.#####.#.#",
+      "#.....##..#.#.#",
+      "#.....##..#.#.#",
+      "#.....#####.#.#",
+      "#....######...#",
+      "#..B.#####.##.#",
+      "#...###.##..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Battery.",
+      "hint2": "Next clue: Room 2.",
+      "hint3": "Watch for this sabotage: Dropping the battery resets the room connection."
+    }
+  },
+  {
+    "id": 64,
+    "name": "Remote Control",
+    "objective": "Activate remote switches without entering their rooms.",
+    "steps": "Find remote \u2192 switch A \u2192 B \u2192 door \u2192 exit.",
+    "sabotage": "The remote range decreases after each switch.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.....##..#",
+      "#........####.#",
+      "#.....##.##.#.#",
+      "#..##########.#",
+      "#.R######.#.#.#",
+      "#..####.#.....#",
+      "#.S####.......#",
+      "#...#.#.......#",
+      "#...#..#.#..#.#",
+      "#.....##.#..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Find remote.",
+      "hint2": "Next clue: Switch a.",
+      "hint3": "Watch for this sabotage: The remote range decreases after each switch."
+    }
+  },
+  {
+    "id": 65,
+    "name": "Laser Rooms",
+    "objective": "Solve three laser rooms where each solution powers the next.",
+    "steps": "Laser A \u2192 power \u2192 Laser B \u2192 power \u2192 exit.",
+    "sabotage": "A previous laser reactivates if the wrong switch is touched.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....#.#.S..#.#",
+      "#....#####....#",
+      "#..#.#...####.#",
+      "#..##...L.#...#",
+      "#...#..####...#",
+      "#..##....####.#",
+      "#...##....#...#",
+      "#...##.####...#",
+      "#...##...##...#",
+      "#....#..###...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Laser a.",
+      "hint2": "Next clue: Power.",
+      "hint3": "Watch for this sabotage: A previous laser reactivates if the wrong switch is touched."
+    }
+  },
+  {
+    "id": 66,
+    "name": "Silent Rooms",
+    "objective": "Complete three stealth rooms in sequence.",
+    "steps": "Stealth A \u2192 B \u2192 C \u2192 exit.",
+    "sabotage": "Noise level carries between rooms.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....######...#",
+      "#...#.#.####..#",
+      "#..####.#.##..#",
+      "#...#..######.#",
+      "#..##....###..#",
+      "#...##...###..#",
+      "#..####..####.#",
+      "#....#######..#",
+      "#....#....###.#",
+      "#.....#######.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Stealth a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: Noise level carries between rooms."
+    }
+  },
+  {
+    "id": 67,
+    "name": "Portal Rooms",
+    "objective": "Use portals to solve three interconnected rooms.",
+    "steps": "Room A portal \u2192 B \u2192 C \u2192 exit.",
+    "sabotage": "The portal pairings change after each room.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#..###..#",
+      "#...#.#.####..#",
+      "#...#.#.#.#...#",
+      "#..###..#####.#",
+      "#..##.###..#O.#",
+      "#...##.######.#",
+      "#...#.#.####..#",
+      "#...#.#....#..#",
+      "#...#.####.#..#",
+      "#...#.##.#.#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Room a portal.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: The portal pairings change after each room."
+    }
+  },
+  {
+    "id": 68,
+    "name": "Countdown Rooms",
+    "objective": "Three rooms share one global timer.",
+    "steps": "Room A \u2192 B \u2192 C \u2192 exit.",
+    "sabotage": "Time spent in one room reduces time in all later rooms.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.###..#..#",
+      "#..##.###..#..#",
+      "#...#.#.#.###.#",
+      "#..####..#.##.#",
+      "#....##..#....#",
+      "#...#########.#",
+      "#..###.#..#.#.#",
+      "#..#...##...#.#",
+      "#..##.....###.#",
+      "#......##.###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Room a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: Time spent in one room reduces time in all later rooms."
+    }
+  },
+  {
+    "id": 69,
+    "name": "Four Doors",
+    "objective": "Each room gives one clue for the final door.",
+    "steps": "Door A \u2192 clue \u2192 B \u2192 clue \u2192 C \u2192 final door.",
+    "sabotage": "Wrong final door sends you to a trap room.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#...........T.#",
+      "#...##.R.#..#.#",
+      "#...#.#####.#.#",
+      "#...#.#.#####.#",
+      "#...##..#T..#.#",
+      "#..####..#..#.#",
+      "#...####.#..#.#",
+      "#..##.####..#.#",
+      "#..###.#.#.##.#",
+      "#..#.###.#....#",
+      "#..###.#......#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Door a.",
+      "hint2": "Next clue: Clue.",
+      "hint3": "Watch for this sabotage: Wrong final door sends you to a trap room."
+    }
+  },
+  {
+    "id": 70,
+    "name": "The Facility",
+    "objective": "Escape a large facility using four different systems.",
+    "steps": "Power \u2192 security \u2192 stealth \u2192 emergency exit.",
+    "sabotage": "Facility lockdown begins after the first key.",
+    "difficulty": "Hard",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......#####..#",
+      "#......#.####.#",
+      "#......#.###..#",
+      "#....#.#####..#",
+      "#......#.##...#",
+      "#........##.#.#",
+      "#.......K##.#.#",
+      "#..###..#.#...#",
+      "#.....######..#",
+      "#..#####..#...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Power.",
+      "hint2": "Next clue: Security.",
+      "hint3": "Watch for this sabotage: Facility lockdown begins after the first key."
+    }
+  },
+  {
+    "id": 71,
+    "name": "Decoy",
+    "objective": "Find the real objective among false objectives.",
+    "steps": "Inspect \u2192 reject decoys \u2192 key \u2192 exit.",
+    "sabotage": "Decoys become active obstacles after inspection.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##..#....#.#",
+      "#.K#...######.#",
+      "#..#..#######.#",
+      "#..##.##....#.#",
+      "#...#...####..#",
+      "#...#..#.#.K..#",
+      "#...######..#.#",
+      "#....######.#.#",
+      "#....##...###.#",
+      "#.......#####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Inspect.",
+      "hint2": "Next clue: Reject decoys.",
+      "hint3": "Watch for this sabotage: Decoys become active obstacles after inspection."
+    }
+  },
+  {
+    "id": 72,
+    "name": "Hidden Exit",
+    "objective": "The visible exit is fake; find the concealed one.",
+    "steps": "Explore \u2192 hidden switch \u2192 reveal exit \u2192 escape.",
+    "sabotage": "The fake exit closes all nearby doors.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#.####..#",
+      "#..........##.#",
+      "#.....#..####.#",
+      "#..#####..#.#.#",
+      "#...####...##.#",
+      "#..##..#......#",
+      "#..###.#..##..#",
+      "#..#.###..R##.#",
+      "#..#####.S....#",
+      "#..##..#..##..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Explore.",
+      "hint2": "Next clue: Hidden switch.",
+      "hint3": "Watch for this sabotage: The fake exit closes all nearby doors."
+    }
+  },
+  {
+    "id": 73,
+    "name": "Fake Key",
+    "objective": "Three keys exist but only one opens the door.",
+    "steps": "Test clues \u2192 correct key \u2192 exit.",
+    "sabotage": "Wrong key triggers a chase.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.........K...#",
+      "#.R###...####.#",
+      "#..####.####..#",
+      "#.......##.##.#",
+      "#....#..##.#..#",
+      "#..####.#####.#",
+      "#....#..#.#.#.#",
+      "#....######.#.#",
+      "#..####.#.###.#",
+      "#.K##.#..##...#",
+      "#..#######....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Test clues.",
+      "hint2": "Next clue: Correct key.",
+      "hint3": "Watch for this sabotage: Wrong key triggers a chase."
+    }
+  },
+  {
+    "id": 74,
+    "name": "Fake Switch",
+    "objective": "Only one switch is real.",
+    "steps": "Observe wiring \u2192 real switch \u2192 exit.",
+    "sabotage": "Fake switches activate obstacles.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#......#.#.#",
+      "#..###.#..#.#.#",
+      "#...####..#...#",
+      "#..#..####....#",
+      "#...####.####.#",
+      "#.......###.#.#",
+      "#..####...S##.#",
+      "#....####...#.#",
+      "#...###.#.....#",
+      "#....#####.#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe wiring.",
+      "hint2": "Next clue: Real switch.",
+      "hint3": "Watch for this sabotage: Fake switches activate obstacles."
+    }
+  },
+  {
+    "id": 75,
+    "name": "Invisible Danger",
+    "objective": "Cross an area where hazards are invisible until triggered.",
+    "steps": "Probe \u2192 remember hazards \u2192 key \u2192 exit.",
+    "sabotage": "Triggered hazards remain active.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...##..##....#",
+      "#...####.####.#",
+      "#..#.#.##.#...#",
+      "#...##.#####..#",
+      "#..##########.#",
+      "#...#..#####..#",
+      "#.K....#.####.#",
+      "#.....##.###..#",
+      "#.....###.###.#",
+      "#....#######K.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Probe.",
+      "hint2": "Next clue: Remember hazards.",
+      "hint3": "Watch for this sabotage: Triggered hazards remain active."
+    }
+  },
+  {
+    "id": 76,
+    "name": "Observation",
+    "objective": "Watch the room for a full cycle before moving.",
+    "steps": "Observe \u2192 identify pattern \u2192 execute \u2192 exit.",
+    "sabotage": "Moving early changes the pattern.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....#####.##.#",
+      "#...#..######.#",
+      "#...##.#.#.##.#",
+      "#...##.....#..#",
+      "#..###.###....#",
+      "#....#..#####.#",
+      "#....#....#...#",
+      "#..#####..###.#",
+      "#....#.....##.#",
+      "#...###....##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Identify pattern.",
+      "hint3": "Watch for this sabotage: Moving early changes the pattern."
+    }
+  },
+  {
+    "id": 77,
+    "name": "Pattern Break",
+    "objective": "A repeating hazard pattern contains one safe break.",
+    "steps": "Observe \u2192 find break \u2192 key \u2192 exit.",
+    "sabotage": "The break shifts after the key.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#..K..........#",
+      "#....###...#..#",
+      "#...#########.#",
+      "#......#.###..#",
+      "#..#...######.#",
+      "#..#...######.#",
+      "#..#...##.###.#",
+      "#......#..#.#.#",
+      "#..###.####.K.#",
+      "#.......#.###.#",
+      "#...#####...#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Find break.",
+      "hint3": "Watch for this sabotage: The break shifts after the key."
+    }
+  },
+  {
+    "id": 78,
+    "name": "Remember the Route",
+    "objective": "The route is visible only at the beginning.",
+    "steps": "Observe \u2192 memorize \u2192 traverse \u2192 exit.",
+    "sabotage": "Walls rise after the route disappears.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#.....#####...#",
+      "#....#.##.###.#",
+      "#..######.#.#.#",
+      "#..#.#.######.#",
+      "#..#.#.#..#.#.#",
+      "#..#.#..#...#.#",
+      "#..######..#..#",
+      "#..####.#..##.#",
+      "#...######.##.#",
+      "#...####..###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Memorize.",
+      "hint3": "Watch for this sabotage: Walls rise after the route disappears."
+    }
+  },
+  {
+    "id": 79,
+    "name": "False Path",
+    "objective": "Several paths look correct; only one has consistent clues.",
+    "steps": "Collect clues \u2192 eliminate paths \u2192 exit.",
+    "sabotage": "Wrong path closes behind you.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..###..#####.#",
+      "#..###..#####.#",
+      "#...######.#..#",
+      "#.......#####.#",
+      "#...#...#.#.#.#",
+      "#..####.#.....#",
+      "#..##.#.#.##..#",
+      "#..####.#####.#",
+      "#.....#####...#",
+      "#......##.##..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Collect clues.",
+      "hint2": "Next clue: Eliminate paths.",
+      "hint3": "Watch for this sabotage: Wrong path closes behind you."
+    }
+  },
+  {
+    "id": 80,
+    "name": "Mind Maze",
+    "objective": "Solve symbol, route and timing clues together.",
+    "steps": "Symbols \u2192 route \u2192 timer \u2192 exit.",
+    "sabotage": "Each solved clue alters another clue.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....######...#",
+      "#..###...#.#..#",
+      "#......#.#.#..#",
+      "#..###.#.#....#",
+      "#..#####.####.#",
+      "#..####..#..#.#",
+      "#..####..#..#.#",
+      "#..#.#....#.#.#",
+      "#..####...###.#",
+      "#...###..##.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Symbols.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: Each solved clue alters another clue."
+    }
+  },
+  {
+    "id": 81,
+    "name": "Red Combination",
+    "objective": "Combine lasers and an enemy patrol.",
+    "steps": "Mirror \u2192 switch \u2192 stealth \u2192 key \u2192 exit.",
+    "sabotage": "The enemy is released when the laser is solved.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....S###.M...#",
+      "#....###.####.#",
+      "#.E.####....#.#",
+      "#...######.#..#",
+      "#..###K...##..#",
+      "#..##########.#",
+      "#.......#####.#",
+      "#..##...LK..#.#",
+      "#..###.######.#",
+      "#..#####.E....#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Mirror.",
+      "hint2": "Next clue: Switch.",
+      "hint3": "Watch for this sabotage: The enemy is released when the laser is solved."
+    }
+  },
+  {
+    "id": 82,
+    "name": "Portal Hunter",
+    "objective": "Use portals while being pursued.",
+    "steps": "Portal route \u2192 key \u2192 switch \u2192 exit.",
+    "sabotage": "The hunter can use portals too.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#....###.#.#",
+      "#..###...K....#",
+      "#.....#..S#...#",
+      "#....O.#####..#",
+      "#..##...##..#.#",
+      "#....#..##.#..#",
+      "#....#..##.#..#",
+      "#..#######.#..#",
+      "#..####..####.#",
+      "#..#..#..####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Portal route.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: The hunter can use portals too."
+    }
+  },
+  {
+    "id": 83,
+    "name": "Falling Guard",
+    "objective": "Cross collapsing tiles while avoiding a guard.",
+    "steps": "Cross \u2192 key \u2192 chase \u2192 exit.",
+    "sabotage": "The guard destroys tiles behind it.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#.#####.##.#",
+      "#........##...#",
+      "#..#..#.#####.#",
+      "#..#...K###...#",
+      "#..K#.#.#####.#",
+      "#..##########.#",
+      "#..####.#####.#",
+      "#......##.#.#.#",
+      "#......#.##...#",
+      "#..##########.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Cross.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: The guard destroys tiles behind it."
+    }
+  },
+  {
+    "id": 84,
+    "name": "Gravity Chase",
+    "objective": "Switch gravity while an enemy pursues.",
+    "steps": "Flip \u2192 escape \u2192 flip \u2192 key \u2192 exit.",
+    "sabotage": "The enemy follows every gravity change.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.S...........#",
+      "#...#..####...#",
+      "#...#....###..#",
+      "#..##...#..#..#",
+      "#....E#.#.##..#",
+      "#..######..#..#",
+      "#..##.#.#####.#",
+      "#...#####..##.#",
+      "#.E...######..#",
+      "#..##########.#",
+      "#.....#K#..#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Flip.",
+      "hint2": "Next clue: Escape.",
+      "hint3": "Watch for this sabotage: The enemy follows every gravity change."
+    }
+  },
+  {
+    "id": 85,
+    "name": "Black Laser",
+    "objective": "Solve lasers in darkness while dodging patrols.",
+    "steps": "Flashlight \u2192 mirror \u2192 switch \u2192 stealth \u2192 exit.",
+    "sabotage": "Laser visibility appears only in flashes.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.........S...#",
+      "#....##.###.#.#",
+      "#..#..#.......#",
+      "#...#.#.#####.#",
+      "#...###.#M..#.#",
+      "#...#########.#",
+      "#..########D..#",
+      "#..#.#..##..#.#",
+      "#.L#..#.#####.#",
+      "#.....#..####.#",
+      "#...#.#..####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Flashlight.",
+      "hint2": "Next clue: Mirror.",
+      "hint3": "Watch for this sabotage: Laser visibility appears only in flashes."
+    }
+  },
+  {
+    "id": 86,
+    "name": "Memory Guard",
+    "objective": "Remember a safe path while an enemy patrols it.",
+    "steps": "Observe \u2192 memorize \u2192 move \u2192 key \u2192 exit.",
+    "sabotage": "The guard blocks one memorized tile.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.E.C...K.....#",
+      "#..#..........#",
+      "#..##..E.#.#..#",
+      "#..###...#.#..#",
+      "#....#...#.##.#",
+      "#....#.###.##.#",
+      "#...#####.....#",
+      "#.E.##.##.#...#",
+      "#..######.#.#.#",
+      "#..##########.#",
+      "#.E#..######..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Memorize.",
+      "hint3": "Watch for this sabotage: The guard blocks one memorized tile."
+    }
+  },
+  {
+    "id": 87,
+    "name": "Trap Portal",
+    "objective": "Portals lead to rooms filled with different traps.",
+    "steps": "Portal A \u2192 trap room \u2192 Portal B \u2192 key \u2192 exit.",
+    "sabotage": "One portal destination changes after the first trap.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#..........K..#",
+      "#..###.T#.##..#",
+      "#...########..#",
+      "#..##########.#",
+      "#..##T####.##.#",
+      "#..##.#.##K.#.#",
+      "#.O.#.#.##..#.#",
+      "#...#.#.#.###.#",
+      "#..####.#.....#",
+      "#.....#.###...#",
+      "#..####.###...#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Portal a.",
+      "hint2": "Next clue: Trap room.",
+      "hint3": "Watch for this sabotage: One portal destination changes after the first trap."
+    }
+  },
+  {
+    "id": 88,
+    "name": "Moving Beam",
+    "objective": "A moving laser and moving walls create a timing puzzle.",
+    "steps": "Observe \u2192 move \u2192 mirror \u2192 key \u2192 exit.",
+    "sabotage": "The beam changes phase after the mirror moves.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..##########.#",
+      "#.......#####.#",
+      "#..###.M....#.#",
+      "#....#.##.....#",
+      "#..#....K.....#",
+      "#.......#..#..#",
+      "#..#.#..#..##.#",
+      "#..####.#####.#",
+      "#..#.####.###.#",
+      "#..#..###.##L.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Move.",
+      "hint3": "Watch for this sabotage: The beam changes phase after the mirror moves."
+    }
+  },
+  {
+    "id": 89,
+    "name": "Everything",
+    "objective": "Combine keys, laser, portal, enemy, trap and darkness.",
+    "steps": "Key \u2192 laser \u2192 portal \u2192 stealth \u2192 trap \u2192 exit.",
+    "sabotage": "The facility enters lockdown halfway through.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.D.TT........#",
+      "#.....#..#..E.#",
+      "#..###.####...#",
+      "#.E..###..#T..#",
+      "#..####T....#.#",
+      "#..####..L.E..#",
+      "#..####.#.#.#.#",
+      "#..O#.#######.#",
+      "#....########.#",
+      "#.E..##.#.K##.#",
+      "#..#K####.###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Key.",
+      "hint2": "Next clue: Laser.",
+      "hint3": "Watch for this sabotage: The facility enters lockdown halfway through."
+    }
+  },
+  {
+    "id": 90,
+    "name": "Survival",
+    "objective": "Survive a sequence of escalating hazards and reach the exit.",
+    "steps": "Wave 1 \u2192 wave 2 \u2192 wave 3 \u2192 exit.",
+    "sabotage": "Every wave removes one safe area.",
+    "difficulty": "Expert",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#.#.....#..#",
+      "#..####....#..#",
+      "#..#######.##.#",
+      "#...###.#...#.#",
+      "#...####..###.#",
+      "#...#.#..####.#",
+      "#..####..####.#",
+      "#....##.#.....#",
+      "#...###..#....#",
+      "#..###...#..#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Wave 1.",
+      "hint2": "Next clue: Wave 2.",
+      "hint3": "Watch for this sabotage: Every wave removes one safe area."
+    }
+  },
+  {
+    "id": 91,
+    "name": "One Life",
+    "objective": "Complete a long route with one life.",
+    "steps": "Plan \u2192 key \u2192 switch \u2192 hazard \u2192 exit.",
+    "sabotage": "No restart checkpoint exists.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.K...........#",
+      "#.....####.##.#",
+      "#.........##..#",
+      "#.....#...###.#",
+      "#..##.#######.#",
+      "#....####.###.#",
+      "#..#..##..###.#",
+      "#..#..######..#",
+      "#.S#..#..###..#",
+      "#..###.#.####.#",
+      "#..#K.#######.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Plan.",
+      "hint2": "Next clue: Key.",
+      "hint3": "Watch for this sabotage: No restart checkpoint exists."
+    }
+  },
+  {
+    "id": 92,
+    "name": "No Checkpoint",
+    "objective": "Solve three rooms without dying.",
+    "steps": "Room A \u2192 B \u2192 C \u2192 exit.",
+    "sabotage": "A failure restarts the entire challenge.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......######.#",
+      "#..##.##.#....#",
+      "#....##..#.##.#",
+      "#..####..####.#",
+      "#..#####......#",
+      "#..##########.#",
+      "#...##...####.#",
+      "#...###..####.#",
+      "#...######.#..#",
+      "#......#.#.#..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Room a.",
+      "hint2": "Next clue: B.",
+      "hint3": "Watch for this sabotage: A failure restarts the entire challenge."
+    }
+  },
+  {
+    "id": 93,
+    "name": "Extreme Timing",
+    "objective": "Synchronize switches, lasers and moving walls.",
+    "steps": "Switch \u2192 laser gap \u2192 wall gap \u2192 exit.",
+    "sabotage": "All timings accelerate near the end.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#...#.###.###.#",
+      "#.S.#.#####...#",
+      "#..######.##..#",
+      "#..##.#..###..#",
+      "#..#.#######..#",
+      "#..####.##.#..#",
+      "#....L..##.#..#",
+      "#..###..####..#",
+      "#......###....#",
+      "#....#.#.####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Switch.",
+      "hint2": "Next clue: Laser gap.",
+      "hint3": "Watch for this sabotage: All timings accelerate near the end."
+    }
+  },
+  {
+    "id": 94,
+    "name": "Perfect Stealth",
+    "objective": "Reach the exit without entering any vision cone.",
+    "steps": "Observe \u2192 stealth \u2192 key \u2192 exit.",
+    "sabotage": "One alarm permanently increases enemy speed.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#......##.....#",
+      "#.E######.###.#",
+      "#.E...####.#..#",
+      "#..#..##.###..#",
+      "#..#..######..#",
+      "#..#####..##..#",
+      "#..#...######.#",
+      "#.A######.##..#",
+      "#..##.##..###.#",
+      "#...#K#..E##..#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Stealth.",
+      "hint3": "Watch for this sabotage: One alarm permanently increases enemy speed."
+    }
+  },
+  {
+    "id": 95,
+    "name": "Perfect Memory",
+    "objective": "Memorize a complex route through changing rooms.",
+    "steps": "Observe \u2192 route \u2192 memory \u2192 exit.",
+    "sabotage": "The map changes after the first mistake.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....####.....#",
+      "#....####.##..#",
+      "#..###.#.####.#",
+      "#..#...#.###..#",
+      "#..#####.#....#",
+      "#..#.#.####...#",
+      "#..#.####.#...#",
+      "#..#########..#",
+      "#..#######....#",
+      "#..#..###.###.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Observe.",
+      "hint2": "Next clue: Route.",
+      "hint3": "Watch for this sabotage: The map changes after the first mistake."
+    }
+  },
+  {
+    "id": 96,
+    "name": "Four Worlds",
+    "objective": "Four themed rooms each use a different mechanic.",
+    "steps": "Laser \u2192 gravity \u2192 stealth \u2192 memory \u2192 exit.",
+    "sabotage": "Each completed world makes the next harder.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..#L..#.##.#.#",
+      "#..#######..#.#",
+      "#..#####.#..#.#",
+      "#..####.##....#",
+      "#..##...####..#",
+      "#..##...###.#.#",
+      "#..#....###...#",
+      "#..####...###.#",
+      "#....##.#.###.#",
+      "#...#..#.####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Laser.",
+      "hint2": "Next clue: Gravity.",
+      "hint3": "Watch for this sabotage: Each completed world makes the next harder."
+    }
+  },
+  {
+    "id": 97,
+    "name": "Ultimate Maze",
+    "objective": "A huge branching maze contains keys, traps and decoys.",
+    "steps": "Explore \u2192 keys \u2192 clues \u2192 safe route \u2192 exit.",
+    "sabotage": "Several dead ends become active traps.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.TK..........#",
+      "#....###.###..#",
+      "#...T.####....#",
+      "#.......T##.#.#",
+      "#..#..#######.#",
+      "#.....#.###.#.#",
+      "#..##########.#",
+      "#.K######.###.#",
+      "#..######.##..#",
+      "#..##.######..#",
+      "#..##..#.####.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Explore.",
+      "hint2": "Next clue: Keys.",
+      "hint3": "Watch for this sabotage: Several dead ends become active traps."
+    }
+  },
+  {
+    "id": 98,
+    "name": "Ultimate Combination",
+    "objective": "Combine nearly every learned mechanic.",
+    "steps": "Power \u2192 laser \u2192 portal \u2192 stealth \u2192 gravity \u2192 exit.",
+    "sabotage": "The sabotage sequence starts before the final door.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#...........O.#",
+      "#..#########..#",
+      "#...#####.R...#",
+      "#..##...##....#",
+      "#.L###.###....#",
+      "#..#######.##.#",
+      "#...######..#.#",
+      "#..####.#.....#",
+      "#...#...#.....#",
+      "#..###.######.#",
+      "#..##..###.##.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Power.",
+      "hint2": "Next clue: Laser.",
+      "hint3": "Watch for this sabotage: The sabotage sequence starts before the final door."
+    }
+  },
+  {
+    "id": 99,
+    "name": "Final Preparation",
+    "objective": "Complete five short tests before the final gate.",
+    "steps": "Test 1 \u2192 2 \u2192 3 \u2192 4 \u2192 5 \u2192 gate.",
+    "sabotage": "All previous mechanics become active in the final room.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#....###.####.#",
+      "#..###..#####.#",
+      "#..####....##.#",
+      "#..#.#..#.....#",
+      "#..##########.#",
+      "#..#..#.#####.#",
+      "#..#....#####.#",
+      "#........####.#",
+      "#..####.##.##.#",
+      "#..##########.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Test 1.",
+      "hint2": "Next clue: 2.",
+      "hint3": "Watch for this sabotage: All previous mechanics become active in the final room."
+    }
+  },
+  {
+    "id": 100,
+    "name": "THE FINAL ESCAPE",
+    "objective": "Escape seven phases: code, laser, pursuit, collapse, blackout, memory and final gate.",
+    "steps": "Code \u2192 laser \u2192 chase \u2192 collapse \u2192 blackout \u2192 memory \u2192 final gate.",
+    "sabotage": "FINAL SABOTAGE: the entire map reconfigures before the last door.",
+    "difficulty": "Nightmare",
+    "grid": [
+      "###############",
+      "#P............#",
+      "#.............#",
+      "#..######..##.#",
+      "#...##..#####.#",
+      "#..####.####..#",
+      "#..#..#.##R#..#",
+      "#..#.##..#.#..#",
+      "#..#####...#..#",
+      "#..#######....#",
+      "#....######...#",
+      "#....#.####...#",
+      "#..#L#.####.#.#",
+      "#............G#",
+      "###############"
+    ],
+    "hints": {
+      "hint1": "Start here: Code.",
+      "hint2": "Next clue: Laser.",
+      "hint3": "Watch for this sabotage: FINAL SABOTAGE: the entire map reconfigures before the last door."
+    }
+  }
+]
